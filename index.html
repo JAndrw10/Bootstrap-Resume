@@ -1,109 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Bootstrap Resume</title>
-
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
- 
-
     <div class="container">
-        ...
-      </div>
-    
-    <div class="jumbotron"><!-- add background colorblue far left-->
-        <h1 class="display-4">Joseph Oliver</h1>
-        <p class="lead">Full Stack Developer</p>
-        <hr class="my-4">
-       
-      </div>
-
-      <div class="alert alert-success" role="alert">
-        This resume was created using BootStrap4! <a href="#" class="alert-link"></a>      </div>
-
-      <h3>MySkills <span class="badge badge-secondary"></span></h3>
-
-
-
-
-      <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          HTML/CSS
-          <span class="badge badge-primary badge-pill"></span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          Front-End Devlopment
-          <span class="badge badge-primary badge-pill"></span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          SQL
-          <span class="badge badge-primary badge-pill"></span>
-        </li>
-      </ul>
-      
-      <h2> My Experience</h2>
-
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Auto Parts Department</h5>
-              <h5> Some quic example text to build on the card title and make up the bulk of the card's content</h5>
-              
-
-              <a href="https://www.voylescdjr.com/dealership/staff.htm">
-              <button type="submit" class="btn btn-primary">Link to Employer</button>
-            </a>
+        <div class="row mt-5">
+            <div class="jumbotron col-10 bg-primary text-white">
+                <h2 class="pt-5">Joseph Oliver</h2>
+                <h3 class="pb-5">Full Stack developer</h3>
             </div>
-          </div>
         </div>
-        <div class="col-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Lot Manager</h5>
-              <p class="card-text"> Maintained car dealership lot by maximizing space and documenting vehicle inventory and Managed key inventory using Key Master Management system</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"> Shipping and Receiving Assistant </h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row mb-3">
+            <div class="alert alert-success col-12" role="alert">
+                A simple success alert—check it out!
             </div>
-          </div>
         </div>
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Auto Detail Special</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <div class="row mb-1">
+            <h1>My Skills</h1>
+        </div>
+
+        <div class="row mb-3">
+            <ul class="list-group col-12 px-0">
+                <li class="list-group-item">
+                    HTML/CSS
+                    <span class="badge badge-pill badge-primary border border-dark float-right"></span>
+                </li>
+                <li class="list-group-item">
+                    JavaScript
+                    <span class="badge badge-pill badge-primary border border-dark float-right"></span>
+                </li>
+                <li class="list-group-item">
+                    React.JS
+                    <span class="badge badge-pill badge-primary border border-dark float-right"></span>
+                </li>
+                <li class="list-group-item">
+                    Express.JS/Node.JS
+                    <span class="badge badge-pill badge-primary border border-dark float-right"></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row mb-1">
+            <h1>My Experience</h1>
+        </div>
+
+        <div class="row justify-content-between my-2">
+            <div class="col-md-3 px-0">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Voyles CDJR of Birmingham</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Parts Associate</h6>
+                        <p class="card-text"> &#9642; Pulled Parts from inventory and ordered parts not in stock. <br />
+                          &#9642; Assisted customers with identifying parts and diagnosed problems.<br />
+                          &#9642; Completed multipoint inspections using Dealer-FX software system. </p>
+                          <a href="https://www.voylescdjr.com">
+                            <button type="submit" class="btn btn-primary">Link to Voyles CDJR</button>
+                          </a>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="col-md-3 px-0">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Voyles CDJR of Birmingham</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Lot Manager</h6>
+                        <p class="card-text">&#9642; Maintained car dealership lot by maximizing space and documenting vehicle inventory. <br />
+                          &#9642; Managed key inventory using  1micro auto Key Management System. <br />
+                          &#9642; Checking new vehicles are displaying factory and addendum stickers and selling price.
+                        </p>
+                        <a href="https://www.voylescdjr.com">
+                          <button type="submit" class="btn btn-primary">Link to Voyles CDJR</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 px-0">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">The University of Alabama</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Shipping and Receiving Assitant</h6>
+                        <p class="card-text">&#9642; Received merchandise, checked and signed delivery slips, and assisted with unloading if necessary. <br />
+                            &#9642; Packed and Shipped orders to internal and external customers. <br />
+                        &#9642; Inspected and verified incoming goods against invoices and other documents. <br />
+                        &#9642; Determined method of shipments and other shipping documents
+
+                            </p>
+                            <a href="https://careers.ua.edu/jobs/">
+                              <button type="submit" class="btn btn-primary">Link to UA's career site</button>
+                            </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-      
+
+        <div class="row justify-content-between my-2">
+            <div class="col-md-3 px-0">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Benchmark CDJR</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Detail Specialist</h6>
+                        <p class="card-text">&#9642; Verified Vehicle shipments upon delivery and verified shipment documents. <br /> 
+                          &#9642; Cleaning vehicle interiors and exteriors in compliance with all company standards and client requests. <br />
+                          &#9642; Managing inventory and reordering supplies.
+                  </p>
+                  <a href="https://www.maseratiofbirmingham.com/">
+                    <button type="submit" class="btn btn-primary">Link to Maserati of Birmingham (formerly Benchmark CDJR)</button>
+                  </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 px-0">
+                
+                </div>
+            </div>
+
+            <div class="col-md-3 px-0">
+               
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row my-2 mb-3">
+            <div class="col-md-3 px-0">
+               
+                </div>
+            </div>
+
+            <div class="col-md-3 px-0">
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="jumbotron col-12 px-0 text-center">
+              <p class="lead">Jaoliver1@crimson.ua.edu</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
